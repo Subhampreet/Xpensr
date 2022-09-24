@@ -1,0 +1,99 @@
+.header-container {
+    width: 100%;
+    margin: auto;
+    padding: 25px 0px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-container .header .header-logo img{
+    width: 150px;
+}
+
+.header-container .header .header-body{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-container .header .header-body .searchbar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(232, 242, 246);
+  border-radius: 13px;
+  padding: 7px 15px;
+  width: 350px;
+  margin-right: 40px;
+}
+
+.header-container .header .header-body .searchbar .search-icon{
+  color: rgb(75, 77, 79);
+  font-size: 20px;
+  margin-right: 3px;
+}
+
+.header-container .header .header-body .searchbar input {
+  outline: none;
+  padding: 8px 0px;
+  border: none;
+  margin-left: 6px;
+  background-color: rgb(232, 242, 246);
+}  
+
+.header-container .header .header-body .searchbar input::placeholder{
+  font-weight: 500;
+  font-size: 14px;
+  color: rgb(158, 176, 193);
+  letter-spacing: 0.08rem;
+}
+
+.header-container .header .header-body .account {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-container .header .header-body .account img{
+  width: 47px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.header-container .header .header-body .account h4{
+  margin: 0px !important;
+  font-size: 13px;
+  letter-spacing: 0.05rem;
+  color: rgb(27, 25, 25);
+  font-weight: 700;
+}
+
+.header-container .header .header-body .account p{
+  font-size: 12px;
+  margin: 0px;
+  letter-spacing: 0.05rem;
+  color: rgb(81, 80, 80);
+}
+  
+  @media only screen and (max-width: 1024px) {
+    .header-container {
+      width: 90%;
+    } 
+    
+  }
+  
+  @media only screen and (max-width: 512px) {
+    .header-container {
+      width: 100%;
+    }
+    
+  }
+
