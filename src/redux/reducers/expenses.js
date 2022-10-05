@@ -7,4 +7,4 @@ export const expenseReducer = (state=initialState, action) => {
         default:
             return state;
     }
-}
+};
