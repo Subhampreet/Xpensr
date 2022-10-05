@@ -1,5 +1,4 @@
 import { combineReducers, createStore } from "redux";
-
 import {expenseReducer} from "../reducers/expenses";
 
 const reducer = combineReducers({
