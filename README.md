@@ -1,4 +1,4 @@
-<h1>Xpensr - Expense Tracking Application</h1>
+<h1 align="center">Xpensr - Expense Tracking Application</h1>
 
 Many software developers would have heard of Redux as it is the de facto or at least one of the popular frameworks in the area of state management. However, many developers especially who have spent long time on backend logic development complain the steep learning curve and so hinders the progress of feature development. In fact, the key to mastering the concept of Redux is nothing more than getting familiar with the data flow and understanding the responsibility of each component. In this article, I will firstly outline the key concept of React Redux data flow and then walkthrough how I created an app using React Redux.
 
