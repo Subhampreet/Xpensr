@@ -1,9 +1,14 @@
 import React from 'react'
 import "./Footer.css";
 
-function Footer() {
+
+function Footer({children}) {
   return (
-    <div>Footer</div>
+    <div style={phantom} >
+        <div style={style}>
+          { children }
+        </div>
+    </div>    
   )
 }
 
